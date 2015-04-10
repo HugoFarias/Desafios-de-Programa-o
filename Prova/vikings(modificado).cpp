@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <deque>
-#include <iostream>
 
 using namespace std;
 
@@ -10,8 +9,8 @@ int main(){
 	while(n!=0){
 		deque<char> alfa;
 		char aux;
-		for (char i = 'A'; i <= 'Z'; ++i)
-			d->push_back(i);
+		for (char c = 'A'; c <= 'Z'; ++c)
+			alfa.push_back(c);
 		printf("Instancia %d\n", inst);
 		for (i = 0; i < n; i++){
 			scanf("%d", &ind);
